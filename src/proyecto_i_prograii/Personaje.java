@@ -1,0 +1,97 @@
+package proyecto_i_prograii;
+
+public enum Personaje {
+    //Villanos
+    PLANET_EARTH_V(0),
+    DR_DOOM(10),
+    GALACTUS(9),
+    KING_PIN(8),
+    MAGNETO(8),
+    APOCALYPSE(7),
+    GREEN_GOBLIN(7),
+    VENOM(7),
+    BULLSEYE(6),
+    OMEGA_RED(6),
+    ONSLAUGHT(6),
+    RED_SKULL(6),
+    MYSTIQUE(5),
+    MYSTERIO(5),
+    DR_OCTOPUS(5),
+    DEADPOOL(5),
+    ABOMINATION(4),
+    THANOS(4),
+    BLACK_CAT(4),
+    SABRETOOTH(4),
+    JUGGERNAUT(3),
+    RHINO(3),
+    CARNAGE(3),
+    MOLE_MAN(3),
+    LIZARD(3),
+    MR_SINISTER(2),
+    SENTINEL1(2),
+    ULTRON(2),
+    SANDMAN(2),
+    LEADER(2),
+    VIPER(2),
+    SENTINEL2(2),
+    ELECTRO(2),
+    BLACK_WIDOW_V(1),
+    PUMPKIN_BOMB(0),
+    PUMPKIN_BOMB1(0),
+    PUMPKIN_BOMB2(0),
+    PUMPKIN_BOMB3(0),
+    PUMPKIN_BOMB4(0),
+    PUMPKIN_BOMB5(0),
+    
+    //Heroes
+    PLANET_EARTH_H(0),
+    MR_FANTASTIC(10),
+    CAPTAIN_AMERICA(9),
+    PROFESSOR_X(8),
+    NICK_FURY(8),
+    SPIDER_MAN(7),
+    WOLVERINE(7),
+    NAMOR(7),
+    DAREDEVIL(6),
+    SILVER_SURFER(6),
+    HULK(6),
+    IRON_MAN(6),
+    THOR(5),
+    HUMAN_TORCH(5),
+    CYCLOPS(5),
+    INVISIBLE_WOMAN(5),
+    GHOST_RIDER(4),
+    PUNISHER(4),
+    BLADE(4),
+    THING(4),
+    EMMA_FROST(3),
+    SHE_HULK(3),
+    GIANT_MAN(3),
+    BEAST(3),
+    COLOSSUS(3),
+    GAMBIT(2),
+    SPIDER_GIRL(2),
+    ICE_MAN(2),
+    STORM(2),
+    PHOENIX(2),
+    DR_STRANGE(2),
+    ELEKTRA(2),
+    NIGHTCRAWLER(2),
+    BLACK_WIDOW_H(1),
+    NOVA_BLAST1(0),
+    NOVA_BLAST2(0),
+    NOVA_BLAST3(0),
+    NOVA_BLAST4(0),
+    NOVA_BLAST5(0),
+    NOVA_BLAST6(0);
+
+    private final int rango;
+
+    Personaje(int rango) {
+        this.rango = rango;
+    }
+
+    public int getRango() {
+        return rango;
+    }
+}
